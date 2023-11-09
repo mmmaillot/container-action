@@ -1,18 +1,18 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'My superb action'
+description: 'An action that does superb things'
+author: 'MMM Corp'
 
 # Define your inputs here.
 inputs:
   who-to-greet:
-    description: 'Your input description here'
+    description: 'Greetings'
     required: true
-    default: 'World'
+    default: 'Maxime'
 
 # Define your outputs here.
 outputs:
   greeting:
-    description: 'Your output description here'
+    description: 'Just the output'
 
 runs:
   using: docker
